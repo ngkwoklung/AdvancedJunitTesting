@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa966cb2-8d00-4c25-a0b5-03dc4c53884c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/AdvancedJunitTesting/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/jn/AdvancedJunitTesting/SpartanTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/jn/AdvancedJunitTesting/SpartanTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +35,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kwokl/Sparta/AdvancedJunitTesting&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.SpartanTests">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kwokl\Sparta\AdvancedJunitTesting" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sparta.jn.AdvancedJunitTesting" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HamcrestTests.checkThatCoursesAreTheAvailableCoursesOnly">
+    <configuration name="HamcrestTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedJunitTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.jn.AdvancedJunitTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.jn.AdvancedJunitTesting" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.AdvancedJunitTesting.HamcrestTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HamcrestTests.checkThatCoursesAreTheAvailableCoursesOnly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedJunitTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.jn.AdvancedJunitTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.jn.AdvancedJunitTesting" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.AdvancedJunitTesting.HamcrestTests" />
+      <option name="METHOD_NAME" value="checkThatCoursesAreTheAvailableCoursesOnly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpartanTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdvancedJunitTesting" />
       <extension name="coverage">
@@ -61,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanTests.checkThatTheSpartanIsManishExecuting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpartanTests.checkIfTheDateJoined" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdvancedJunitTesting" />
       <extension name="coverage">
         <pattern>
@@ -71,7 +107,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.jn.AdvancedJunitTesting" />
       <option name="MAIN_CLASS_NAME" value="com.sparta.jn.AdvancedJunitTesting.SpartanTests" />
-      <option name="METHOD_NAME" value="checkThatTheSpartanIsManishExecuting" />
+      <option name="METHOD_NAME" value="checkIfTheDateJoined" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpartanTests.testThatIdIsBetween10And10000Inclusive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedJunitTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.jn.AdvancedJunitTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.jn.AdvancedJunitTesting" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.AdvancedJunitTesting.SpartanTests" />
+      <option name="METHOD_NAME" value="testThatIdIsBetween10And10000Inclusive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,8 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HamcrestTests.checkThatCoursesAreTheAvailableCoursesOnly" />
+        <item itemvalue="JUnit.HamcrestTests" />
         <item itemvalue="JUnit.SpartanTests" />
-        <item itemvalue="JUnit.SpartanTests.checkThatTheSpartanIsManishExecuting" />
+        <item itemvalue="JUnit.SpartanTests.testThatIdIsBetween10And10000Inclusive" />
+        <item itemvalue="JUnit.SpartanTests.checkIfTheDateJoined" />
       </list>
     </recent_temporary>
   </component>
