@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aa966cb2-8d00-4c25-a0b5-03dc4c53884c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/jn/AdvancedJunitTesting/SpartanTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/jn/AdvancedJunitTesting/SpartanTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/jn/AdvancedJunitTesting/ParameterizedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/jn/AdvancedJunitTesting/ParameterizedTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/jn/mocking/SpartanRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/jn/mocking/SpartanRepositoryTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-18.0.2/lib/src.zip!/java.base/java/util/Optional.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar!/org/junit/jupiter/params/ParameterizedTest.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,8 +54,8 @@
       <recent name="com.sparta.jn.AdvancedJunitTesting" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HamcrestTests.checkThatCoursesAreTheAvailableCoursesOnly">
-    <configuration name="HamcrestTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ParameterizedTests.usingAMethodSource (1)">
+    <configuration name="ParameterizedTests.usingAMethodSource (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdvancedJunitTesting" />
       <extension name="coverage">
         <pattern>
@@ -60,29 +64,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.jn.AdvancedJunitTesting" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.AdvancedJunitTesting.HamcrestTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HamcrestTests.checkThatCoursesAreTheAvailableCoursesOnly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AdvancedJunitTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sparta.jn.AdvancedJunitTesting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sparta.jn.AdvancedJunitTesting" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.AdvancedJunitTesting.HamcrestTests" />
-      <option name="METHOD_NAME" value="checkThatCoursesAreTheAvailableCoursesOnly" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.AdvancedJunitTesting.ParameterizedTests" />
+      <option name="METHOD_NAME" value="usingAMethodSource(int,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParameterizedTests.usingAMethodSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdvancedJunitTesting" />
       <extension name="coverage">
         <pattern>
@@ -91,39 +80,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.jn.AdvancedJunitTesting" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.AdvancedJunitTesting.SpartanTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpartanTests.checkIfTheDateJoined" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AdvancedJunitTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sparta.jn.AdvancedJunitTesting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sparta.jn.AdvancedJunitTesting" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.AdvancedJunitTesting.SpartanTests" />
-      <option name="METHOD_NAME" value="checkIfTheDateJoined" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.AdvancedJunitTesting.ParameterizedTests" />
+      <option name="METHOD_NAME" value="usingAMethodSource" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanTests.testThatIdIsBetween10And10000Inclusive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpartanRepositoryTests.checkThatSpartanMethodsAreCalledInTheRightOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdvancedJunitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sparta.jn.AdvancedJunitTesting.*" />
+          <option name="PATTERN" value="com.sparta.jn.mocking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sparta.jn.AdvancedJunitTesting" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.AdvancedJunitTesting.SpartanTests" />
-      <option name="METHOD_NAME" value="testThatIdIsBetween10And10000Inclusive" />
+      <option name="PACKAGE_NAME" value="com.sparta.jn.mocking" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.mocking.SpartanRepositoryTests" />
+      <option name="METHOD_NAME" value="checkThatSpartanMethodsAreCalledInTheRightOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpartanRepositoryTests.checkThatTheGetIdMethodIsCalledOnOurMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedJunitTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.jn.mocking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.jn.mocking" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.mocking.SpartanRepositoryTests" />
+      <option name="METHOD_NAME" value="checkThatTheGetIdMethodIsCalledOnOurMock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpartanRepositoryTests.testingPSartanRepositiryPrintMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedJunitTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.jn.mocking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.jn.mocking" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.mocking.SpartanRepositoryTests" />
+      <option name="METHOD_NAME" value="testingPSartanRepositiryPrintMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HamcrestTests.checkThatCoursesAreTheAvailableCoursesOnly" />
-        <item itemvalue="JUnit.HamcrestTests" />
-        <item itemvalue="JUnit.SpartanTests" />
-        <item itemvalue="JUnit.SpartanTests.testThatIdIsBetween10And10000Inclusive" />
-        <item itemvalue="JUnit.SpartanTests.checkIfTheDateJoined" />
+        <item itemvalue="JUnit.ParameterizedTests.usingAMethodSource (1)" />
+        <item itemvalue="JUnit.ParameterizedTests.usingAMethodSource" />
+        <item itemvalue="JUnit.SpartanRepositoryTests.checkThatSpartanMethodsAreCalledInTheRightOrder" />
+        <item itemvalue="JUnit.SpartanRepositoryTests.checkThatTheGetIdMethodIsCalledOnOurMock" />
+        <item itemvalue="JUnit.SpartanRepositoryTests.testingPSartanRepositiryPrintMethod" />
       </list>
     </recent_temporary>
   </component>

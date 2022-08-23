@@ -34,15 +34,18 @@ public class ParameterizedTests {
     @ParameterizedTest()
     @MethodSource("sourceMethod")
     @DisplayName("Using a method source")
-    void usingAMethodSource() {
-        Assertions.assertEquals(1,1);
-
+    void usingAMethodSource(int number, String name) {
+        Assertions.assertTrue(name.length() == number);
     }
 
     public static Stream<Arguments> sourceMethod() {
         return Stream.of(
-                Arguments.of(1, "Manish"),
-                Arguments.of(2, "David"));
+                Arguments.of(1, "Manish")
+                , Arguments.of(2, "David")
+                , Arguments.of(3, "Stephen")
+                , Arguments.of(4, "Danny"));
+
+
 
     }
 
